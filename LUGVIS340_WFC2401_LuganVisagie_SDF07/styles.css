@@ -1,0 +1,82 @@
+:root{
+    --azure: rgb(207, 238, 238);
+    --white: #F7F7F7;
+    --blue: #99DDFF;
+    --darkblue: #00458B;
+    --terquise: #3FD2C7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color:  var(--azure);
+    color: var(--darkblue);
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    size: 160px ;
+    display: flex;   
+    margin: 0 auto;
+    
+   
+}
+
+input {
+    color: var(--darkblue);
+    background-color: var(--white);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
+
+button {
+    color: var(--white);
+    background-color: var(--blue);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+button:hover {
+    background-color: var(--darkblue);
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: var(--white);
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover {
+    background-color: var(--beige);
+    cursor: pointer;
+}
